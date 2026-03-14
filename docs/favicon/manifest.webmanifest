@@ -1,0 +1,17 @@
+{
+  "name": "robots.txt生成ツール | Parts & Tips",
+  "icons": [
+    {
+      "src": "/favicon/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/favicon/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ]
+}
