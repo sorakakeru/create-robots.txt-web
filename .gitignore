@@ -1,5 +1,6 @@
 .DS_Store
 
 robots.txt
+_py/
+docs/_sample/
 docs/_text.md
-docs/lib/robots.json
