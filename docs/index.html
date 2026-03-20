@@ -5,11 +5,132 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <meta name="format-detection" content="telephone=no">
-  <title>...</title>
+  <meta name="description" content="robots.txtファイルを生成します">
+  <meta property="og:site_name" content="Parts &amp; Tips">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:image" content="https://parts-tips.com/images/og.png">
+  <meta property="og:title" content="robots.txt生成ツール | Parts &amp; Tips">
+  <meta property="og:description" content="robots.txtファイルを生成します">
+  <meta property="og:url" content="https://robotstxt.parts-tips.com/">
+  <meta property="og:type" content="website">
+  <title>robots.txt生成ツール | Parts & Tips</title>
+  <link rel="manifest" href="/favicon/manifest.webmanifest">
+  <link rel="icon" href="/favicon/favicon.ico" size="32x32">
+  <link rel="icon" href="/favicon/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/favicon/apple-touch-icon.png">
+  <link rel="stylesheet" href="/lib/style.css">
+  <script src="/lib/script.js" defer></script>
+    <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4C0LR2PM9J"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-4C0LR2PM9J');
+  </script>
 </head>
 <body>
 
-<p>予定地</p>
+<div class="wrapper">
+
+  <header class="header">
+    <div class="back"><a href="https://parts-tips.com/">Parts & Tips</a></div>
+    <h1>robots.txt生成ツール</h1>
+    <p>以下の内容で検索およびAIクローラーを拒否する<code>robots.txt</code>を生成します。</p>
+    <ul>
+      <li>すべての検索クローラー（<code>User-agent: *</code>）に対して
+        <ul>
+          <li>指定したパス（ディレクトリ・ファイル）へのアクセスを拒否します</li>
+        </ul>
+      </li>
+      <li>Googleの画像クローラー（<code>User-agent: Googlebot-Image</code>）に対して
+        <ul>
+          <li>ルート以下すべてのディレクトリ・ファイルへのアクセスを拒否します</li>
+        </ul>
+      </li>
+      <li><a href="https://github.com/ai-robots-txt/ai.robots.txt">ai.robots.txt</a>に記載のあるAIクローラーに対して
+        <ul>
+          <li>ルート以下すべてのディレクトリ・ファイルへのアクセスを拒否します</li>
+        </ul>
+      </li>
+    </ul>
+    <p>ご利用の際はまず「<a href="#about-use">ご利用に際して</a>」をお読みください。</p>
+  </header>
+
+  <main class="main">
+
+    <div class="form_area">
+      <form id="txtForm">
+        <dl>
+          <dt><label for="rejection_path">アクセスを拒否するディレクトリやファイルのパスを指定</label></dt>
+          <dd>
+            <textarea id="rejection_path" placeholder="/path/&#13;&#10;/path/to/style.css"></textarea>
+            <ul>
+              <li>パスはサイトルート（<code>/</code>）からのパスを指定してください</li>
+              <li>複数のパスを指定する場合は、改行して入力してください</li>
+              <li>入力欄が空の場合は、Google画像クローラーと各種AIクローラーのみ拒否する<code>robots.txt</code>を生成します</li>
+            </ul>
+          </dd>
+        </dl>
+        <div class="btn_area">
+          <button type="submit" id="create">robots.txtを生成する</button>
+        </div>
+      </form>
+    </div>
+
+    <div id="result_area"></div>
+
+    <hr>
+
+    <h2 id="about-use">ご利用に際して</h2>
+    <ul>
+      <li>生成された<code>robots.txt</code>の内容のうち、著作権表記については以下のとおりおねがいします
+        <ul>
+          <li>Parts &amp; Tipsの著作権表記：削除いただいても構いません</li>
+          <li>ai.robots.txtの著作権表記：削除・改変せずそのままご使用ください</li>
+        </ul>
+      </li>
+      <li>生成された<code>robots.txt</code>の内容について、テキストエディター等で適宜修正いただいて構いません
+        <ul>
+          <li>著作権表記については上記のとおりです</li>
+        </ul>
+      </li>
+      <li>本ツールで入力・出力した内容はその場限りのものであり、Cookie等によるデータの保持はされません</li>
+      <li>本ツールを利用して生じたいかなる問題（トラブル、損害、データ損失等）について、当方は一切の責任を負いません</li>
+      <li>本ツールは今後予告なく仕様変更や公開を停止する場合があります</li>
+    </ul>
+
+    <h2 id="use-library">使用ライブラリ</h2>
+    <p>本ツールは、AIクローラーのリストアップに以下のライブラリを使用しています。</p>
+    <p>ai.robots.txt<br>
+    <a href="https://github.com/ai-robots-txt/ai.robots.txt">https://github.com/ai-robots-txt/ai.robots.txt</a><br>
+    Copyright (c) 2024 ai.robots.txt<br>
+    MIT License: <a href="https://github.com/ai-robots-txt/ai.robots.txt/blob/main/LICENSE">https://github.com/ai-robots-txt/ai.robots.txt/blob/main/LICENSE</a></p>
+
+    <h2 id="contact">不具合報告・お問い合わせについて</h2>
+    <p>本ツールについて、不具合やお問い合わせの際は以下までお願いします</p>
+    <ul>
+      <li><a href="https://parts-tips.com/pati/">絵文字＆ひとことメッセージ</a></li>
+      <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSemoskYPi0CiIUlXUYjWM9EKabohLyHbKydXZ_sSDqDFsFfOg/viewform">お問い合わせフォーム</a></li>
+    </ul>
+
+    <h2 id="reference">参考ページ</h2>
+    <ul>
+      <li><a href="https://parts-tips.com/posts/meta-noindex-robots">metaタグによる検索エンジンのインデックス制御とrobots.txtについて | Parts &amp; Tips</a></li>
+      <li><a href="https://parts-tips.com/posts/robots-ai-crawler">robots.txtによるAIクローラーの制御について | Parts &amp; Tips</a></li>
+    </ul>
+
+    <h2 id="record">更新履歴</h2>
+    <ul>
+      <li>26/3/--：公開</li>
+    </ul>
+  </main>
+
+  <footer class="footer">
+    <p><small>&copy; <a href="https://parts-tips.com/">Parts & Tips</a></small></p>
+  </footer>
+
+</div><!-- //.wrapper -->
 
 </body>
 </html>
