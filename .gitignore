@@ -3,5 +3,5 @@
 robots.txt
 _py/
 docs/_sample/
-docs/lib/
 docs/_text.md
+docs/_text.html
