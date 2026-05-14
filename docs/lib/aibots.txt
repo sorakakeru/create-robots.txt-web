@@ -58,6 +58,9 @@ Disallow: /
 User-agent: Applebot-Extended
 Disallow: /
 
+User-agent: Aranet-SearchBot
+Disallow: /
+
 User-agent: atlassian-bot
 Disallow: /
 
@@ -74,6 +77,9 @@ User-agent: bigsur.ai
 Disallow: /
 
 User-agent: Bravebot
+Disallow: /
+
+User-agent: Brightbot
 Disallow: /
 
 User-agent: Brightbot 1.0
@@ -100,6 +106,9 @@ Disallow: /
 User-agent: ChatGPT-User
 Disallow: /
 
+User-agent: Claude-Code
+Disallow: /
+
 User-agent: Claude-SearchBot
 Disallow: /
 
@@ -116,6 +125,9 @@ User-agent: Cloudflare-AutoRAG
 Disallow: /
 
 User-agent: CloudVertexBot
+Disallow: /
+
+User-agent: Code
 Disallow: /
 
 User-agent: cohere-ai
@@ -175,6 +187,9 @@ Disallow: /
 User-agent: Gemini-Deep-Research
 Disallow: /
 
+User-agent: Google-Agent
+Disallow: /
+
 User-agent: Google-CloudVertexBot
 Disallow: /
 
@@ -182,6 +197,9 @@ User-agent: Google-Extended
 Disallow: /
 
 User-agent: Google-Firebase
+Disallow: /
+
+User-agent: Google-Gemini-CLI
 Disallow: /
 
 User-agent: Google-NotebookLM
@@ -200,6 +218,9 @@ User-agent: GoogleOther-Video
 Disallow: /
 
 User-agent: GPTBot
+Disallow: /
+
+User-agent: HenkBot
 Disallow: /
 
 User-agent: iAskBot
@@ -286,7 +307,13 @@ Disallow: /
 User-agent: MyCentralAIScraperBot
 Disallow: /
 
+User-agent: NagetBot
+Disallow: /
+
 User-agent: netEstate Imprint Crawler
+Disallow: /
+
+User-agent: newsai
 Disallow: /
 
 User-agent: NotebookLM
@@ -305,6 +332,9 @@ User-agent: omgilibot
 Disallow: /
 
 User-agent: OpenAI
+Disallow: /
+
+User-agent: opencode
 Disallow: /
 
 User-agent: Operator
@@ -370,6 +400,9 @@ Disallow: /
 User-agent: TavilyBot
 Disallow: /
 
+User-agent: Terra Cotta
+Disallow: /
+
 User-agent: TerraCotta
 Disallow: /
 
@@ -380,6 +413,9 @@ User-agent: TikTokSpider
 Disallow: /
 
 User-agent: Timpibot
+Disallow: /
+
+User-agent: Trae
 Disallow: /
 
 User-agent: TwinAgent
@@ -417,3 +453,4 @@ Disallow: /
 
 User-agent: ZanistaBot
 Disallow: /
+
