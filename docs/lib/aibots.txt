@@ -10,6 +10,9 @@ Disallow: /
 User-agent: AddSearchBot
 Disallow: /
 
+User-agent: AgentTimes
+Disallow: /
+
 User-agent: AI2Bot
 Disallow: /
 
@@ -139,10 +142,16 @@ Disallow: /
 User-agent: Cotoyogi
 Disallow: /
 
+User-agent: CragCrawler
+Disallow: /
+
 User-agent: Crawl4AI
 Disallow: /
 
 User-agent: Crawlspace
+Disallow: /
+
+User-agent: Cursor
 Disallow: /
 
 User-agent: Datenbank Crawler
@@ -184,6 +193,9 @@ Disallow: /
 User-agent: FriendlyCrawler
 Disallow: /
 
+User-agent: GeistHaus-PageFetcher
+Disallow: /
+
 User-agent: Gemini-Deep-Research
 Disallow: /
 
@@ -206,6 +218,9 @@ User-agent: Google-NotebookLM
 Disallow: /
 
 User-agent: GoogleAgent-Mariner
+Disallow: /
+
+User-agent: GoogleAgent-URLContext
 Disallow: /
 
 User-agent: GoogleOther
@@ -254,6 +269,9 @@ User-agent: kagi-fetcher
 Disallow: /
 
 User-agent: Kangaroo Bot
+Disallow: /
+
+User-agent: Kimi-User
 Disallow: /
 
 User-agent: KlaviyoAIBot
@@ -370,6 +388,12 @@ Disallow: /
 User-agent: QualifiedBot
 Disallow: /
 
+User-agent: Querit-SearchBot
+Disallow: /
+
+User-agent: QueritBot
+Disallow: /
+
 User-agent: QuillBot
 Disallow: /
 
@@ -386,6 +410,9 @@ User-agent: SemrushBot-OCOB
 Disallow: /
 
 User-agent: SemrushBot-SWA
+Disallow: /
+
+User-agent: Shap-User
 Disallow: /
 
 User-agent: ShapBot
@@ -419,6 +446,9 @@ User-agent: Trae
 Disallow: /
 
 User-agent: TwinAgent
+Disallow: /
+
+User-agent: UseAI
 Disallow: /
 
 User-agent: VelenPublicWebCrawler
