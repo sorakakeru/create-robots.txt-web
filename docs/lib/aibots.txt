@@ -25,7 +25,13 @@ Disallow: /
 User-agent: aiHitBot
 Disallow: /
 
+User-agent: AIWebIndex
+Disallow: /
+
 User-agent: amazon-kendra
+Disallow: /
+
+User-agent: amazon-QBusiness
 Disallow: /
 
 User-agent: Amazonbot
@@ -247,9 +253,6 @@ Disallow: /
 User-agent: iaskspider/2.0
 Disallow: /
 
-User-agent: IbouBot
-Disallow: /
-
 User-agent: ICC-Crawler
 Disallow: /
 
@@ -320,6 +323,9 @@ User-agent: MistralAI-User
 Disallow: /
 
 User-agent: MistralAI-User/1.0
+Disallow: /
+
+User-agent: Mozilla-Tabstack
 Disallow: /
 
 User-agent: MyCentralAIScraperBot
@@ -442,6 +448,9 @@ Disallow: /
 User-agent: Timpibot
 Disallow: /
 
+User-agent: TongyiBot
+Disallow: /
+
 User-agent: Trae
 Disallow: /
 
@@ -476,6 +485,9 @@ User-agent: YandexAdditional
 Disallow: /
 
 User-agent: YandexAdditionalBot
+Disallow: /
+
+User-agent: YiyanBot
 Disallow: /
 
 User-agent: YouBot
