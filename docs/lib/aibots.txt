@@ -184,6 +184,9 @@ Disallow: /
 User-agent: ExaBot
 Disallow: /
 
+User-agent: ExaSearchBot
+Disallow: /
+
 User-agent: FacebookBot
 Disallow: /
 
@@ -290,6 +293,9 @@ User-agent: LAIONDownloader
 Disallow: /
 
 User-agent: LCC
+Disallow: /
+
+User-agent: Lightpanda
 Disallow: /
 
 User-agent: LinerBot
@@ -404,6 +410,9 @@ User-agent: QuillBot
 Disallow: /
 
 User-agent: quillbot.com
+Disallow: /
+
+User-agent: Reflectionbot
 Disallow: /
 
 User-agent: SBIntuitionsBot
