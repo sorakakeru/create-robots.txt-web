@@ -172,6 +172,12 @@ Disallow: /
 User-agent: Diffbot
 Disallow: /
 
+User-agent: Diffbot-User
+Disallow: /
+
+User-agent: DoubaoBot
+Disallow: /
+
 User-agent: DuckAssistBot
 Disallow: /
 
@@ -179,6 +185,9 @@ User-agent: Echobot Bot
 Disallow: /
 
 User-agent: EchoboxBot
+Disallow: /
+
+User-agent: ERNIEBot
 Disallow: /
 
 User-agent: ExaBot
@@ -277,7 +286,13 @@ Disallow: /
 User-agent: Kangaroo Bot
 Disallow: /
 
+User-agent: Kimi-SearchBot
+Disallow: /
+
 User-agent: Kimi-User
+Disallow: /
+
+User-agent: KimiBot
 Disallow: /
 
 User-agent: KlaviyoAIBot
@@ -325,6 +340,12 @@ Disallow: /
 User-agent: meta-webindexer
 Disallow: /
 
+User-agent: MistralAI-Index
+Disallow: /
+
+User-agent: MistralAI-Training
+Disallow: /
+
 User-agent: MistralAI-User
 Disallow: /
 
@@ -350,6 +371,9 @@ User-agent: NotebookLM
 Disallow: /
 
 User-agent: NovaAct
+Disallow: /
+
+User-agent: OAI-AdsBot
 Disallow: /
 
 User-agent: OAI-SearchBot
@@ -410,6 +434,9 @@ User-agent: QuillBot
 Disallow: /
 
 User-agent: quillbot.com
+Disallow: /
+
+User-agent: QwenBot
 Disallow: /
 
 User-agent: Reflectionbot
