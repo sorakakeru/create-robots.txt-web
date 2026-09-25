@@ -1,7 +1,4 @@
 .DS_Store
 
-robots.txt
+_output/
 _py/
-docs/_sample/
-docs/_text.md
-docs/_text.html
