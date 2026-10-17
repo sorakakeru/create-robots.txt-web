@@ -262,7 +262,16 @@ Disallow: /
 User-agent: GPTBot
 Disallow: /
 
+User-agent: GrokAppAndroid
+Disallow: /
+
+User-agent: GrokBot
+Disallow: /
+
 User-agent: HenkBot
+Disallow: /
+
+User-agent: Hunyuan
 Disallow: /
 
 User-agent: iAskBot
@@ -367,6 +376,9 @@ Disallow: /
 User-agent: MistralAI-User/1.0
 Disallow: /
 
+User-agent: MoonshotBot
+Disallow: /
+
 User-agent: Mozilla-Tabstack
 Disallow: /
 
@@ -374,6 +386,9 @@ User-agent: MyCentralAIScraperBot
 Disallow: /
 
 User-agent: NagetBot
+Disallow: /
+
+User-agent: nbot
 Disallow: /
 
 User-agent: netEstate Imprint Crawler
@@ -532,6 +547,9 @@ Disallow: /
 User-agent: WRTNBot
 Disallow: /
 
+User-agent: xAI-Grok
+Disallow: /
+
 User-agent: YaK
 Disallow: /
 
@@ -539,6 +557,9 @@ User-agent: YandexAdditional
 Disallow: /
 
 User-agent: YandexAdditionalBot
+Disallow: /
+
+User-agent: YiBot
 Disallow: /
 
 User-agent: YiyanBot
